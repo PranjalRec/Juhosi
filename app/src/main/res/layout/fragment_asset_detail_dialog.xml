@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".AssetDetailDialogFragment">
+
+
+    <EditText
+        android:id="@+id/editTextAccountNumber"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="50dp"
+        android:paddingStart="10dp"
+        android:background="@drawable/edittext_background"
+        android:ems="10"
+        android:layout_gravity="center_horizontal"
+        android:hint="Account Number"
+        android:inputType="number"
+        android:padding="5dp"/>
+
+    <EditText
+        android:id="@+id/editTextCertificateNumber"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
+        android:paddingStart="10dp"
+        android:background="@drawable/edittext_background"
+        android:ems="10"
+        android:layout_gravity="center_horizontal"
+        android:hint="Certificate Number"
+        android:inputType="number"
+        android:padding="5dp"/>
+
+    <TextView
+        android:id="@+id/TextViewPolicyStartDate"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
+        android:paddingStart="14dp"
+        android:gravity="center_vertical"
+        android:textSize="18sp"
+        android:background="@drawable/edittext_background"
+        android:ems="10"
+        android:layout_gravity="center_horizontal"
+        android:text="Policy start date"
+        android:padding="5dp"/>
+
+    <EditText
+        android:id="@+id/editTextPolicyEndDate"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
+        android:paddingStart="10dp"
+        android:background="@drawable/edittext_background"
+        android:ems="10"
+        android:layout_gravity="center_horizontal"
+        android:hint="Policy end Date (DD/MM/YY)"
+        android:inputType="date"
+        android:padding="5dp"/>
+
+    <EditText
+        android:id="@+id/editTextSumAssured"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
+        android:paddingStart="10dp"
+        android:background="@drawable/edittext_background"
+        android:ems="10"
+        android:layout_gravity="center_horizontal"
+        android:hint="Sum Assured"
+        android:inputType="number"
+        android:padding="5dp"/>
+
+    <Spinner
+        android:id="@+id/spinnerLifeInsuranceCompanyName"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/edittext_background"
+        android:paddingStart="10dp"
+        android:visibility="gone"
+        android:layout_gravity="center_horizontal" />
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="24dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/buttonCancelAssetDialog"
+            android:layout_width="wrap_content"
+            android:layout_marginRight="20dp"
+            android:layout_height="wrap_content"
+            android:text="Cancel"/>
+
+        <Button
+            android:id="@+id/buttonSubmitAssetDialog"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="Submit"/>
+    </LinearLayout>
+
+
+</LinearLayout>

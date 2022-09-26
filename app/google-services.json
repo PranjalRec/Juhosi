@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "488861505777",
+    "firebase_url": "https://juhosi-6e4fc-default-rtdb.firebaseio.com",
+    "project_id": "juhosi-6e4fc",
+    "storage_bucket": "juhosi-6e4fc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:488861505777:android:13989718a406f10f42b150",
+        "android_client_info": {
+          "package_name": "in.astudentzone.pranjal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "488861505777-t4r3atb0gelk0cj4rckltnc51r847to4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyClxjLIj9BpZwfu-vF_E_6H29CN7VpV400"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "488861505777-t4r3atb0gelk0cj4rckltnc51r847to4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
